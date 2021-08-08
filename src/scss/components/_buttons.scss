@@ -1,0 +1,24 @@
+@use 'abstracts' as a;
+
+%btn { // % = shared styles
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin: 3px;
+
+    &:hover {
+        transform: scale(.98);
+    }
+}
+
+.btn-primary {
+    @extend %btn;
+    @include a.set-background(lighten(a.$primary-color, 10%)); // Can use lighten or darken then the color followed by percentage
+    font-weight: 600;
+}
+
+.btn-secondary {
+    @extend %btn;
+    @include a.set-background(a.$secondary-color);
+    font-weight: 600;
+}

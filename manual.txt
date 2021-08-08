@@ -1,0 +1,17 @@
+*****Resources*****
+https://youtu.be/wYWf2m_yzBQ
+
+1.  npm init -y
+2.  npm i -g sass // sets global of sass
+3.  npm i sass --save-dev // Creates environment with the version and adds to package.json so as others know
+4.  Create a folder "src" folder in the root, or whatever your naming convention for dev environment and then a "scss" sub-folder, finally make a          "...".scss file
+5.  sass --watch src/scss:dist/css - replace the paths with your setup, if different *Note - only use this if you do not intend using points 6 through 8
+6.  For dev -> dist run: npm i parcel-bundler --save-dev
+7.  Replace: "test": "...", (if you want), or add:  "dev": "parcel src/index.html -d dev", // Will create a dev folder
+                                                    "build": "parcel build src/index.html --public-url ./" //Will create a dist folder
+    to your "package.json". - use: "npm run dev" when developing (view the dev-build by clicking on the link created in the terminal) and: "npm run build" when ready to complete and build.
+    *Note - the "--public-url ./" denotes the path used in the href's for built css and js - this case it is in the root of the build so as the completed project can be seen on live servers
+8.  Add html and JS at the root of the src folder and stylesheet href must be "scss/YOUR-STYLESHEET-NAME.scss", or, if using JS in the website remove the stylesheet link from the "Head" and and add "import scss/YOUR-STYLESHEET-NAME.scss" to the html pages js file (index.js for example) - on building, parcel, will create the link tag - see src/index.js for implementation
+9.  Add gh-pages: npm i gh-pages --save-dev
+10.  Add "deploy": "gh-pages -d dist"
+11. File structure principles based on 7-1 directory structure (more here - https://pjmcdermott92.medium.com/the-7-1-scss-architecture-430c50b1f35a)

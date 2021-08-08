@@ -1,0 +1,14 @@
+@use 'functions' as f;
+
+// Set background and text color mixin
+@mixin set-background($color) {
+    background-color: $color;
+    color: f.set-text-color($color);
+}
+
+// Media mixin
+@mixin max-width($width) {
+    @media screen and (max-width: $width) {
+        @content;
+    }
+}

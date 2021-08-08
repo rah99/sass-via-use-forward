@@ -1,0 +1,10 @@
+@use 'variables' as v;
+
+// Set text color based on background color
+@function set-text-color($color) {
+    @if(lightness($color) > 70) { // Lightness function returns the "lightness" value of the calculated HSL (Hue, Saturation, Lightness) Color
+        @return v.$font-dark;
+    } @else {
+        @return v.$font-white;
+    }
+}

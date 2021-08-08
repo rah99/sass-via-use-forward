@@ -1,0 +1,13 @@
+@use '../abstracts' as a;
+@use 'typography' as t;
+
+// Global settings
+body {
+    background-color: a.$light-color;
+    font-family: t.$font-style-arial;
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+}

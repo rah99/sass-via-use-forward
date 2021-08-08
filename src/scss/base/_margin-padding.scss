@@ -1,0 +1,20 @@
+// Margin and padding classes - loop
+$spacingValue: (1, 2, 3, 4, 5);
+
+@each $space in $spacingValue {
+    // Margin
+    .m-#{$space} { // All sides
+        margin: #{$space}rem;
+    }
+    .my-#{$space} { // Top and bottom
+        margin: #{$space}rem 0;
+    }
+
+    // Padding
+    .p-#{$space} { // All sides
+        margin: #{$space}rem;
+    }
+    .py-#{$space} { // Top and bottom
+        margin: #{$space}rem 0;
+    }
+}

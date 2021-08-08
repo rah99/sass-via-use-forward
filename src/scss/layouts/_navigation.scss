@@ -1,0 +1,28 @@
+@use '../abstracts' as a;
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    li {
+        padding: 15px;
+
+        a {
+            color: a.set-text-color(a.$primary-color);
+            font-weight: 600;
+        }
+
+        a:hover {
+            color: a.$secondary-color;
+        }
+    }
+}

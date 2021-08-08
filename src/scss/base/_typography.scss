@@ -1,0 +1,11 @@
+// Fonts
+$font-style-arial: Arial, Helvetica, sans-serif;
+
+.showcase {
+        &-content {
+            h1 {
+            font-size: 50px;
+            line-height: 1.2;
+        }
+    }
+}

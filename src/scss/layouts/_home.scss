@@ -1,0 +1,21 @@
+@use '../abstracts' as a;
+@use '../base';
+@use '../components';
+@use '../utilities';
+@use 'navigation';
+
+.showcase {
+    @include a.set-background(a.$primary-color);
+    height: 600px;
+
+    &-content { // Ampresand inherits the parent
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        img {
+            width: 50%;
+        }
+    }
+}
