@@ -1,6 +1,6 @@
 # Sass-Demo
-IDE used - VS Code
-Environment - Node
+1. IDE - VS Code
+2. Environment - Node with package-bundler (included in the "package.json" dependencies)
 ### To use this repo:
 1. Clone repo
 2. Install dependencies - will automate based on "package.json"
