@@ -132,6 +132,14 @@ img {
   overflow: auto;
 }
 
+p .ghp-links {
+  color: #fff;
+  font-weight: 600;
+}
+p .ghp-links:hover {
+  color: #ff8700;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -165,13 +173,6 @@ nav li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.showcase-content a {
-  color: #fff;
-  font-weight: 600;
-}
-.showcase-content a:hover {
-  color: #ff8700;
 }
 .showcase-content img {
   width: 50%;

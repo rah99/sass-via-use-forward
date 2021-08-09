@@ -14,15 +14,6 @@
         align-items: center;
         justify-content: center;
         
-        a {
-            color: a.set-text-color(a.$primary-color);
-            font-weight: 600;
-        }
-
-        a:hover {
-            color: a.$secondary-color;
-        }
-        
         img {
             width: 50%;
         }

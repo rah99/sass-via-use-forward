@@ -1,0 +1,12 @@
+@use '../abstracts' as a;
+
+p {
+    .ghp-links {
+        color: a.set-text-color(a.$primary-color);
+        font-weight: 600;
+    }
+
+    .ghp-links:hover {
+        color: a.$secondary-color;
+    }
+}
