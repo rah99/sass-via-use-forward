@@ -12,9 +12,9 @@ $spacingValue: (1, 2, 3, 4, 5);
 
     // Padding
     .p-#{$space} { // All sides
-        margin: #{$space}rem;
+        padding: #{$space}rem;
     }
     .py-#{$space} { // Top and bottom
-        margin: #{$space}rem 0;
+        padding: #{$space}rem 0;
     }
 }

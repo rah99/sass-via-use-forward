@@ -32,11 +32,11 @@ img {
 }
 
 .p-1 {
-  margin: 1rem;
+  padding: 1rem;
 }
 
 .py-1 {
-  margin: 1rem 0;
+  padding: 1rem 0;
 }
 
 .m-2 {
@@ -48,11 +48,11 @@ img {
 }
 
 .p-2 {
-  margin: 2rem;
+  padding: 2rem;
 }
 
 .py-2 {
-  margin: 2rem 0;
+  padding: 2rem 0;
 }
 
 .m-3 {
@@ -64,11 +64,11 @@ img {
 }
 
 .p-3 {
-  margin: 3rem;
+  padding: 3rem;
 }
 
 .py-3 {
-  margin: 3rem 0;
+  padding: 3rem 0;
 }
 
 .m-4 {
@@ -80,11 +80,11 @@ img {
 }
 
 .p-4 {
-  margin: 4rem;
+  padding: 4rem;
 }
 
 .py-4 {
-  margin: 4rem 0;
+  padding: 4rem 0;
 }
 
 .m-5 {
@@ -96,11 +96,11 @@ img {
 }
 
 .p-5 {
-  margin: 5rem;
+  padding: 5rem;
 }
 
 .py-5 {
-  margin: 5rem 0;
+  padding: 5rem 0;
 }
 
 .btn-secondary, .btn-primary {
