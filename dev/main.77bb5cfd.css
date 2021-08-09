@@ -179,6 +179,9 @@ nav li a:hover {
 }
 
 @media screen and (max-width: 700px) {
+  .showcase {
+    height: fit-content;
+  }
   .showcase nav h1 {
     flex-basis: 100%;
     text-align: center;
